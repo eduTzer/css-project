@@ -96,8 +96,8 @@ a {
 .information {
     display: flex;
     justify-content: space-between;
-    margin-left: 200px;
-    margin-right: 200px;
+    margin-left: 300px;
+    margin-right: 300px;
     text-align: center;
 }
 
@@ -109,7 +109,7 @@ a {
 
 .main-3 {
     background-color: #e5e7eb;
-    padding: 100px;
+    padding: 100px 0;
     margin-top: 24px;
     display: flex;
     flex-direction: column;
@@ -119,12 +119,15 @@ a {
     font-size: 36px;
     color: #1f2937;
     font-style: italic;
-    margin: 0 100px;
+    text-align: justify;
+    text-justify: inter-word;
+    margin: 0 300px;
 }
 
 .reference {
     align-self: flex-end;
-    margin: 16px 100px 0;
+    color: #1f2937;
+    margin: 16px 300px 0;
 }
 
 .main-4 {
@@ -144,4 +147,12 @@ a {
     margin: 0 200px;
     color: #e5e7eb;
     gap: 300px;
+    border-radius: 10px;
+}
+
+footer {
+    background-color: #1f2937;
+    padding: 15px;
+    color: #e5e7eb;
+    text-align: center;
 }
